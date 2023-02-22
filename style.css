@@ -1,0 +1,154 @@
+:root
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    background-repeat: no-repeat;
+    
+}
+
+#principal {
+    width: 100%;
+    height: 80px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #bababa;
+}
+
+    #principal div a {
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+    }
+        #principal div a:hover {
+            color: #cccccc;
+        }
+
+    #menu {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    #principal button{
+        margin-right: 5%;
+        background-color: #0C70F2;
+        border: 0px;
+        height: 40px;
+        width: 80px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 24px;
+        color: #FFFFFF;
+        box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+        cursor: pointer;
+    }
+
+/* Seção principal do site */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+header {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+}
+    header h1 {
+        font-size: 80px;
+        font-weight: 800;
+        font-weight: bolder;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    header h2 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 100px;
+    }
+
+    .invert {
+    background-color: black;
+    font-weight: bold;
+    padding: 5px;
+    }
+
+/* formulários */
+
+form {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    width: 600px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form input {
+    border-radius: 10px;
+    border: 0px;
+    height: 30px;
+    font-size: 15px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.9);
+}
+form label {
+    margin: 10px 0px 10px 0px;
+}
+
+form input::placeholder {
+    color: rgba(57, 57, 57, 0.5);
+}
+
+.checkbox-itens label{
+    font-size: 25px;
+
+}
+
+.checkbox-itens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.7);
+}
+
+input[type="submit"] {
+    background: rgba(12, 112, 242, 0.9);
+    box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+    border-radius: 10px;
+    width: 100%;
+    height: 46px;
+
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 50px;
+    cursor: pointer;
+}
